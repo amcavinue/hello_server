@@ -27,3 +27,5 @@ app.get('/:firstname/:lastname', function(request, response) {
 
 // Removed for exporting project as a module.
 // app.listen(process.env.PORT || 8080, process.env.IP);
+
+module.exports= app;
