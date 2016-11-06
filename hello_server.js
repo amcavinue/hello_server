@@ -25,4 +25,5 @@ app.get('/:firstname/:lastname', function(request, response) {
     response.send(["Hello", first, last].join(" "));
 });
 
-app.listen(process.env.PORT || 8080, process.env.IP);
+// Removed for exporting project as a module.
+// app.listen(process.env.PORT || 8080, process.env.IP);
